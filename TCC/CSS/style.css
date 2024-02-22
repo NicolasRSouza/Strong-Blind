@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: rgb(251, 0, 0);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+img{
+    position: relative;
+    top: -20%;
+}
+.link-one{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 3px;
+    background-color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.link-one:hover{
+    transition: 500ms;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: red;
+    transition: 500ms;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.login:hover{
+    color: rgb(255, 0, 0);
+    transition: 500ms;
+}
+.esquerda{
+    right: 0;
+    width: 50%;
+    height: auto;
+    text-align: right;
+    color: white;
+}
+.direita{
+    left: 0;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.principal{
+    width: 100%;
+    display: flex;
+}
+.saiba-mais{
+    color: white;
+    text-decoration: none;
+    background-color: #e40085;
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logoimg{
+    position: relative;
+    bottom: -25%;
+    height: 100%;
+    width: auto;
+}
