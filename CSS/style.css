@@ -125,11 +125,25 @@ img{
     background-color: #e40085;
     border: none;
     height: 40px;
-    width: 55%;
+    max-width: 250px;
+    width: 100%;
     border-radius: 10px;
     cursor: pointer;
 }
 .logoimg{
     width: 90%;
     height: auto;
+}
+
+@media screen and (max-width: 820px) {
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    .direita{
+        width: 100%;
+    }
+    .esquerda{
+        width: 100%;
+    }
 }
